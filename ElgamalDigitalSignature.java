@@ -4,6 +4,26 @@
  * and open the template in the editor.
  */
 
+ /**********************************************************************************************
+ Sample Input
+---------------------------------------------------------------------------------------------
+Step 1:Public/ Private Keys Generation 
+Enter q
+16
+Enter XA,such that 1 < XA < q-1
+14
+Step 2:Digital Signature
+Message with hash value m , such that m is an integer in the range0 <= m <= q -1. :
+12
+Enter K value random  Choose a random integer K such that 1 <= K <= q - 1 
+4
+[1, 0, 15] [0, 1, 4] 
+Step 3: Verification
+[1, 0, 15] [0, 1, 4] 
+4 4
+1 1
+Verification Completed, Signature is Valid
+***********************************************************************************************/
 
 /**
  *
